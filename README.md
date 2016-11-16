@@ -9,14 +9,16 @@ Algorithm:
      5. Return ordered list of points.
      
  Class {@code PlaneOfPoints} define methods to handle {@code Point}
+ 
  Methods:
+ 
  1) arrangePointsOrder(double [][] listOfCoordinates) 
  define list of points with x and y coordinates on the plane, which can be consecutive connected by 
  a closed polygonal line that has no self-intersections.
- @param listOfCoordinates input array of coordinates of points on the plane
-                     that need to be connected by polygonal line
+ @param listOfCoordinates input array of coordinates of points on the plane that need to be connected by polygonal line
  @return list of ordered points
  @throws java.lang.NullPointerException if input list of {@code Point} is empty or null
  
- Class {@code Point} representing a location in (x,y) coordinate space, specified in double precision.
- {@code Point} class also has property {@code tangle} which specify inclination of line crossing OX and connecting this {@code Point} with the lowest point in the plane.
+ 
+Class {@code Point} representing a location in (x,y) coordinate space, specified in double precision.
+{@code Point} class also has property {@code tangle} which specify inclination of line crossing OX and connecting this {@code Point} with the lowest point in the plane.
